@@ -1,0 +1,31 @@
+<Configuration>
+    <!-- Windows Sandbox for Zoom settings -->
+    <MappedFolders>
+        <MappedFolder>
+            <!--
+                For advance users: Replace C:\ with the absolute path
+                to the current folder whenever appropriate.
+            -->
+            <HostFolder>C:\Windows Sandbox for Zoom\SandboxScripts</HostFolder>
+            <ReadOnly>true</ReadOnly>
+        </MappedFolder>
+    </MappedFolders>
+    <LogonCommand>
+        <Command>C:\Users\WDAGUtilityAccount\Desktop\SandboxScripts\ZoomInstall.cmd</Command>
+    </LogonCommand>
+    
+    <!-- Sandbox settings -->
+    <!-- Enables network access within the sandbox -->
+    <Networking>Enable</Networking>
+    <!-- Applies additional security settings to the sandbox RDP client -->
+    <ProtectedClient>Enable</ProtectedClient>
+    <!-- Disables sharing of the host clipboard with the sandbox (recommended) -->
+    <ClipboardRedirection>Disable</ClipboardRedirection>
+    <!-- Disables virtual GPU sharing (recommended) -->
+    <VGpu>Disable</VGpu>
+    <!-- AV settings -->
+    <!-- Enables audio input to the sandbox -->
+    <AudioInput>Enable</AudioInput>
+    <!-- Enables video input to the sandbox -->
+    <VideoInput>Enable</VideoInput>
+</Configuration>
