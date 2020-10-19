@@ -13,4 +13,3 @@ A pre-configured, free and safe solution to run Zoom Meeting Client in the Windo
 2. Download and extract the latest Windows Sandbox for Zoom release to `C:\` drive.
 
 3. Double click "Zoom Meeting Client.wsb" and Enjoy!
-
